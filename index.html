@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="vendor/bootstrap.min.css">
+    <script src="vendor/jquery.min.js"></script>
+    <script src="vendor/bootstrap.min.js"></script>
+	<title>Simple Jquery Data toggler by Praneeth Madush</title>
+	<script>
+		$(document).ready(function() {
+			$("#showbtn").click(function(){
+				$("#show").slideToggle(2000);
+				$("#show1").slideUp(2000);
+				$("#show2").slideUp(2000);
+			});
+
+			$("#showbtn1").click(function(){
+				$("#show1").slideToggle(2000);
+				$("#show").slideUp(2000);
+				$("#show2").slideUp(2000);
+			});
+
+
+			$("#showbtn2").click(function(){
+				$("#show2").slideToggle(2000);
+				$("#show").slideUp(2000);
+				$("#show1").slideUp(2000);
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="row">
+		<div class="col-sm-8 text-center" id="showbtn" style="background-color: #333333 ; font-size: 18px; color: white; padding-top: 25px; padding-bottom: 25px;">About Us</div>
+		<div class="col-sm-8 text-center" id="show" style="background-color: #555555 ; color: white; padding-top: 25px; padding-bottom: 25px; display: none;">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+
+		<div class="col-sm-8 text-center" id="showbtn1" style="background-color: #444444 ; font-size: 18px; color: white; padding-top: 25px; padding-bottom: 25px;">About Us</div>
+		<div class="col-sm-8 text-center" id="show1" style="background-color: #555555 ; color: white; padding-top: 25px; padding-bottom: 25px; display: none;">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+
+		<div class="col-sm-8 text-center" id="showbtn2" style="background-color: #333333 ; font-size: 18px; color: white; padding-top: 25px; padding-bottom: 25px;">About Us</div>
+		<div class="col-sm-8 text-center" id="show2" style="background-color: #555555 ; color: white; padding-top: 25px; padding-bottom: 25px; display: none;">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+	</div>
+</body>
+</html>
